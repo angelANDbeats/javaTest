@@ -1,19 +1,18 @@
 package com.first.git;
 
+
 public class HelloWord {
-    public static void main(String[] args){
-        System.out.println("Hello Word");
-        //3
-        //哇哇哇哇
-        //成都CDC
-        //...
-        ///sss
-        //22222
+    private int age;
+    private String name;
+
+    public static void main(String[] args) {
+        HelloWord helloWord = new HelloWord();
+
     }
 
 
-    public void test(){
-        int i = 0;
-        System.out.println(i);
+    public void test(int[] a){
+        System.out.println("int[]");
     }
+
 }
